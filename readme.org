@@ -1,0 +1,10 @@
+#+TITLE: Readme
+
+* Needs rustup
+[[https://rustup.rs/][Rustup]]
+
+* Basic usage
+=cargo run -- training <CSV-FILE>=
+
+* TODO list
+- Storage (many functionalities are still not done because this is not implemented yet.)
