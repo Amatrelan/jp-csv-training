@@ -7,11 +7,11 @@ use crate::CSVStruct;
 
 #[derive(Debug, Subcommand)]
 pub enum Commands {
-    /// Add new element to training list
+    /// TODO: Add new element to training list
     Add(CSVStruct),
-    /// Train with existing dataset
+    /// Train with existing dataset, optional csv file can be passed as argument to study that file.
     Train { csv_file: Option<String> },
-    /// Import csv material to dataset
+    /// TODO: Import csv material to dataset
     Import { filepath: String },
     /// Generate shell completions
     Completions {
