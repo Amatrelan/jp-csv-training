@@ -1,0 +1,21 @@
+[package]
+name = "csv_training"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies.cargo-husky]
+version = "1.5.0"
+default-features = false
+features = ["precommit-hook", "run-cargo-test", "run-cargo-clippy", "run-cargo-fmt"]
+
+[dependencies]
+clap = { version = "3.1.1", features = ["derive"] }
+clap_complete = "3.1.0"
+csv = { version = "1.1.6" }
+directories = "4.0.1"
+log = "0.4.14"
+rand = "0.8.5"
+serde = { version = "1.0.136", features = ["derive"] }
+simplelog = "0.11.2"
